@@ -8,7 +8,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  background: #191A19;
+  background: #fff;
   padding: 24px 112px;
   font-size: 24px;
   line-height: 36px;
@@ -29,7 +29,9 @@
 .menu {
   display: flex;
   width: 100%;
-  column-gap: 56px;
+  justify-content: space-between;
+  align-items: center;
+
   @include laptop {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -37,6 +39,7 @@
 }
 
 .logo {
+  height: 30px;
   width: max-content;
 }
 
@@ -62,8 +65,27 @@
   flex-wrap: wrap;
   align-items: center;
   column-gap: 44px;
-  color: #fff;
-  font-size: 24px;
-  line-height: 36px;
+  color: #36384E;
+  font-size: 16px;
+  line-height: 20px;
   font-weight: 500;
+}
+
+.register {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #000;
+}
+
+.login {
+  width: 117px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  background: #E5B300;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #fff;
 }
