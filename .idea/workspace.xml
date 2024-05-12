@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2958d0eb-6180-4c29-a3e9-6adb45642fee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/styles/university/University.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/university/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theDatabase/TheDatabase.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theDatabase/TheDatabase.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theDatabase/icons/unik.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theList/TheList.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theList/TheList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theTextBase/TheTextBase.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theTextBase/TheTextBase.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/styles/sighnIn/SighIn.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/googleButton/GoogleButton.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sighInForm/SighInForm.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theHeader/TheHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theHeader/TheHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/signin/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/signin/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/googleButton/GoogleButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/googleButton/GoogleButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sighInForm/SighInForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sighInForm/SighInForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +166,7 @@
       <workItem from="1715369836621" duration="130000" />
       <workItem from="1715425534851" duration="630000" />
       <workItem from="1715459500471" duration="1164000" />
-      <workItem from="1715526577415" duration="4124000" />
+      <workItem from="1715526577415" duration="5853000" />
     </task>
     <servers />
   </component>

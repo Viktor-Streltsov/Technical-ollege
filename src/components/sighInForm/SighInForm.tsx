@@ -2,7 +2,7 @@
 import { useRouter } from 'next/navigation'
 import { signIn } from 'next-auth/react'
 import { FormEventHandler } from 'react'
-
+import styles from './SighInForm.module.scss'
 
 const SighInForm = () => {
 	const router = useRouter()
@@ -22,15 +22,29 @@ const SighInForm = () => {
 		}
 	}
 	return (
-		<form onSubmit={handleSubmit} className='login-form'>
-			<input
-				type='email' name='email' required
-			/>
-			<input
-				type='password' name='password' required
-			/>
-			<button type='submit'>Sign In</button>
+		<form onSubmit={handleSubmit} className={styles.loginForm}>
+			<div className={styles.inputForm}>
+				<label className={styles.labelText} htmlFor='email'>Логин</label>
+				<input className={styles.inputText}
+							 type='email' name='email' id='email' placeholder={'you@company.com'} required
+				/>
+			</div>
+			<div className={styles.inputForm}>
+				<label className={styles.labelText} htmlFor='password'>Пароль</label>
+				<input className={styles.inputText}
+							 type='password' name='password' id='password' placeholder={'**************'} required
+				/>
+			</div>
+			<div className={styles.checkboxForm}>
+				<input
+					type='checkbox' name='checkbox' id='checkbox' required
+				/>
+				<label className={styles.textCheckbox} htmlFor='password'>Запомнить меня</label>
+			</div>
+			<div></div>
+			<button className={styles.btn} type='submit'>Войти</button>
 		</form>
+
 	)
 }
 
