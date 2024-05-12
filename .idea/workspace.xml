@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2958d0eb-6180-4c29-a3e9-6adb45642fee" name="Changes" comment="" />
+    <list default="true" id="2958d0eb-6180-4c29-a3e9-6adb45642fee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/styles/university/University.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/university/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theDatabase/TheDatabase.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theDatabase/TheDatabase.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theDatabase/icons/unik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theList/TheList.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theList/TheList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theTextBase/TheTextBase.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theTextBase/TheTextBase.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theHeader/TheHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theHeader/TheHeader.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
         <option value="SCSS File" />
       </list>
     </option>
@@ -85,14 +97,14 @@
       <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\LendingConstruction\src\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\Technical-ollege\src\components\theDatabase\icons" />
       <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\Technical-ollege\src\components\theJoinUs\icons" />
       <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\Technical-ollege\src\components\thePopularity\icons" />
       <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\Technical-ollege\src\components\theRating\icons" />
       <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\Technical-ollege\src\components\theSearchInfo\icon" />
-      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\Technical-ollege\src\components\theRating" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -125,8 +137,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -157,6 +169,8 @@
       <workItem from="1715357861949" duration="11759000" />
       <workItem from="1715369836621" duration="130000" />
       <workItem from="1715425534851" duration="630000" />
+      <workItem from="1715459500471" duration="1164000" />
+      <workItem from="1715526577415" duration="4124000" />
     </task>
     <servers />
   </component>

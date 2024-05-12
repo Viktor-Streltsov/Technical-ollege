@@ -32,7 +32,6 @@ const TheHeader = () => {
 									onClick={() => signOut({ callbackUrl: '/' })}>Выйти</Link>
 						:
 						<>
-							<Link className={styles.register} href='/signin'>Зарегистрироваться</Link>
 							<Link className={styles.login} href='/signin'>Войти</Link>
 						</>
 				}
